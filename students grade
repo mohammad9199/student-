@@ -1,0 +1,39 @@
+// main.cpp
+
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <fstream>
+
+class Person {
+public:
+    // Constructor, Destructor, Copy Constructor, Assignment Operator
+
+    void input_data();
+    void display_data() const;
+    void calculate_final_grade(char calculation_method);
+
+private:
+    std::string name;
+    std::string surname;
+    std::vector<int> homework_scores;
+    int exam_score;
+    double final_grade;
+};
+
+void Person::input_data() {
+    // Implementation of data input
+}
+
+void Person::display_data() const {
+    // Implementation of data display
+}
+
+void Person::calculate_final_grade(char calculation_method) {
+    // Implementation of final grade calculation
+}
+
+int main() {
+    // Implementation of the main program
+    return 0;
+}
